@@ -3,9 +3,6 @@ plugins {
   id 'war'
 }
 
-group 'com.prembookstore'
-version '1.0-SNAPSHOT'
-
 repositories {
   mavenCentral()
 }
