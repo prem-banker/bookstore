@@ -1,5 +1,5 @@
 
-header {
+/* header {
     background: var(--secondary-background-color);
     display: flex;
     flex-direction: row;
@@ -19,4 +19,105 @@ header {
     header {
         flex-direction: column;
     }
+} */
+
+
+.my-list-text {
+    font-size: 20px;
 }
+
+.my-list-container {
+    background-color:rgba(36,33,33, 0.9);
+    height: 40px;
+    width: 140px;   
+    margin: 10px 0px;
+    color:  rgba(213,178,99,0.81);
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+  }
+
+.list-icon {
+    width: 24px; /* Set the width */
+            height: 26px; 
+            margin-left: 4px;
+            margin-right: 12px;
+}
+
+
+.header-container{
+    height: 80px;
+
+    display: flex;
+    width: 100% !important;
+
+    align-items: center;
+
+
+    justify-content: center; /* Center content horizontally */
+    background-color: #292828;
+    padding: 10px 30px;
+}
+
+
+
+
+.search-container {
+    height: 40px;
+    width: 512px;   
+    margin: 10px 80px;
+    border-radius: 4px;
+    background-color: #373737; 
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+  }
+
+
+  
+  .search-container button {
+
+    background-color: transparent;
+    margin: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    color: #D5B263;
+  }
+
+
+
+  .search-container p {
+    color:  rgba(213,178,99,0.5);
+    margin: 0px;
+  }
+  
+  .search-container button:hover {
+    background: #ccc;
+  }
+
+  .shopping-cart {
+    background-color: transparent;
+    font-size: 24   px;
+    color:  rgba(213,178,99);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 32px;
+}
+
+
+.circle {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 32px;
+    width: 40px; /* Adjust the width of the circle */
+    height: 40px; /* Adjust the height of the circle */
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Hides overflowing content (in case the image is larger than the circle) */
+    position: relative; /* Positioning for the image */
+}
+
+.circle img {
+    width: 100%; /* Makes the image fill the circle */
+    height: 100%; /* Makes the image fill the circle */
+    object-fit: cover; /* Maintains aspect ratio and covers the entire space */
+}
+
