@@ -156,6 +156,7 @@ body {
 
     /* layout properties (not inherited) */
     margin: 0 auto;
+    background-color: #242121;
     /* max-width: 70rem; */
 }
 

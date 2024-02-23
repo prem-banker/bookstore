@@ -1,24 +1,57 @@
 
-.home-pages  {
-    display: flex;
 
+
+
+
+
+.category-container {
+    margin: 28px 0px;
+
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    gap: 50px; /* Space between items */
 }
 
-.welcome-text {
-    width: 30em;
-    background-color: var(--neutral-color);
-    color: whitesmoke;
-    padding: 1rem;
-    margin-top: 1rem;
-}
-.flow-content > * + * {
-    margin-top: 1rem;
+.category {
+    
+    color: #FFF;
+    
 }
 
-/*
-  Giving various sections of your page this utility class
-  will ensure a nice padding around the contents.
-*/
-.container {
-    padding: 2rem;
+
+.home-container {
+    margin: 46px 0px;
+
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Center items horizontally */
+    gap: 130px; /* Space between items */
+}
+
+
+
+.home-content {
+    width: 400px;
+}
+
+.home-content div{
+    color: white;
+    font-size: 48px;
+}
+
+.buy-now-cta {
+    width: 185px;
+            height: 56px;
+            margin-top: 12px;
+            background-color: #D5B263;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 28px;
+            cursor: pointer;
+}
+
+
+.golden-span{
+    color: rgba(213,178,99);
 }
