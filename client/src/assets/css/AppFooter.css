@@ -1,4 +1,4 @@
-
+/* 
 footer {
     background: var(--secondary-background-color);
     display: flex;
@@ -14,5 +14,37 @@ footer {
 .social-media-icons {
     text-align: center;
     gap: 0.25em;
+} */
+
+
+
+.footer-container {
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0px 0px;
+    background-color: #373737;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
 }
 
+
+.copyright-text{
+    margin-top: 10px;
+    color: white;
+}
+
+.footer-title{
+    color: #D5B263; font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.footer-link{
+    margin-top: 6px;
+    color: white;
+    font-size: 18px;
+}
