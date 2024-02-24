@@ -6,14 +6,14 @@ import  "../types";
 import {bookList,BookItem} from "../types";
 
 function CategoryBookList() {
-  return (
-      <><CategoryNav/>
-          <ul className="book-lists">
-              {bookList.map((book:BookItem) => (
-                  <CategoryBookListItem  bookId={book.bookId} isPublic={book.isPublic} price={book.price} title={book.title} author={book.author}/>))}
-          </ul>
-      </>
-)
+//   return (
+//       <><CategoryNav/>
+//           <ul className="book-lists">
+//               {bookList.map((book:BookItem) => (
+//                   <CategoryBookListItem  bookId={book.bookId} isPublic={book.isPublic} price={book.price} title={book.title} author={book.author}/>))}
+//           </ul>
+//       </>
+// )
 }
 
 export default CategoryBookList;

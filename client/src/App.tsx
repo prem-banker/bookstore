@@ -1,12 +1,12 @@
-import AppHeader from './components/AppHeader';
-import AppFooter from './components/AppFooter';
-import Home from './components/Home'
-import CategoryBookList from './components/CategoryBookList';
 import {
+  Route,
   BrowserRouter as Router,
   Routes,
-  Route,
-} from "react-router-dom"
+} from "react-router-dom";
+import AppFooter from './components/AppFooter';
+import AppHeader from './components/AppHeader';
+import Category from './components/Category';
+import Home from './components/Home';
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <AppHeader />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/categories" element={<CategoryBookList />} />
+          <Route path="/categories" element={<Category />} />
           <Route path="*" element={<div>Page Not Found</div>} />
         </Routes>
 

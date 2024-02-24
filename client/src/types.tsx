@@ -7,7 +7,8 @@ export interface BookItem {
   bookId: number;
   title: string;
   author: string;
-  price: number;
+  price: string;
+  img: string;
   isPublic: boolean;
 }
 
@@ -31,30 +32,18 @@ export const categoryList = [
 export const bookList = [
   {
     bookId: 1001,
-    title: "The Iliad",
-    author: "Homer",
-    price: 699,
+    title: "Habits of household",
+    author: "Justin Earley",
+    price: '$ 18.99',
+    img: 'book1.jpg',
     isPublic: true,
   },
   {
     bookId: 1002,
-    title: "The Brothers Karamazov",
-    author: "Fyodor Dostoevsky",
-    price: 1399,
+    title: "Principles of Parenting",
+    author: "Dr. Aliza Presman",
+    price: '$ 9.99',
+    img: 'book2.jpg',
     isPublic: false,
-  },
-  {
-    bookId: 1003,
-    title: "Little Dorrit",
-    author: "Charles Dickens",
-    price: 599,
-    isPublic: true,
-  },
-  {
-    bookId: 1004,
-    title: "Moby Dick",
-    author: "Herman Melville",
-    price: 699,
-    isPublic: true,
   },
 ];

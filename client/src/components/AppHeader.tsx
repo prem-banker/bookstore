@@ -8,10 +8,11 @@ return(
 
   <header className="header-container">
     
-            
+            <Link to='/'>
         <img src={require('../assets/images/site/logo.png')}
         alt="Logo"
       />
+      </Link>
             
       
             <div className='search-container'>
@@ -43,29 +44,3 @@ return(
 }
 export default AppHeader;
 
-{/* <header className="container">
-    <section className="bookstore-logo">
-      <Link to="/">
-        <img
-          src={require('../assets/images/site/bookstore-logo.png')}
-          alt="Another Bookstore Logo"
-          width="150px"
-          height="auto"
-        />
-      </Link>
-    </section>
-    <section className="title-and-search-bar">
-      <h1>
-        <Link to="/" className="text-logo"> Another Bookstore </Link>
-      </h1>
-      <form action="">
-        <input type="text" className="search-bar" /><br />
-        <input type="submit" className="button search-button" value="Search" />
-      </form>
-    </section>
-    <section className="header-dropdown-and-cart">
-      <button className="button">cart (0)</button>
-      <button className="button">login</button>
-      <HeaderDropdown />
-    </section>
-  </header> */}

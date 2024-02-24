@@ -1,0 +1,10 @@
+.books {
+    
+    width: 1000px;
+    margin: 16px;
+    display: flex;
+    overflow-y: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}

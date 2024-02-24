@@ -21,7 +21,7 @@ return (
     </div>
     <div className="book-title">{props.title }</div>
     <div className="book-author">{ props.author }</div>
-    <div className="book-price">${ (props.price / 100).toFixed(2) }</div>
+    {/* <div className="book-price">${ (props.price / 100).toFixed(2) }</div> */}
     <button className="button">Add to Cart</button>
     <button className="button">Read Now</button>
   </li>
